@@ -3,6 +3,7 @@ function isPal(str, num, replace){
     for (let i in newStr) {
 
 
+
         if(newStr[i].length >= num) {
             newStr[i] = newStr[i].substring(0, num-1) + replace + newStr[i].substring(num)
 
