@@ -1,0 +1,21 @@
+{
+  "web-app": {
+    "servlet": [
+      {
+        "servlet-name": null,
+        "servlet-class": "org.cofax.cds.CDSServlet",
+        "init-param": {
+          "configGlossary:installationAt": "Philadelphia, PA",
+          "configGlossary:adminEmail": "ksm@pobox.com",
+          "configGlossary:poweredBy": "Cofax"
+}},
+      {
+        "servlet-name": "cofaxEmail",
+        "servlet-class": "org.cofax.cds.EmailServlet",
+        "init-param": {
+          "mailHost": "mail1",
+          "mailHostOverride": "mail2"}}
+
+    ]
+  }
+}
